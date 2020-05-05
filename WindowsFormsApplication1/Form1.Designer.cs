@@ -52,7 +52,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.time = new System.Windows.Forms.NumericUpDown();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.day_type = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -204,9 +204,19 @@
             0,
             0,
             0});
+            this.places.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.places.Name = "places";
             this.places.Size = new System.Drawing.Size(120, 20);
             this.places.TabIndex = 14;
+            this.places.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // fame
             // 
@@ -321,13 +331,17 @@
             this.time.Size = new System.Drawing.Size(120, 20);
             this.time.TabIndex = 23;
             // 
-            // comboBox1
+            // day_type
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(193, 248);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 24;
+            this.day_type.FormattingEnabled = true;
+            this.day_type.Items.AddRange(new object[] {
+            "будний день",
+            "выходной",
+            "праздник"});
+            this.day_type.Location = new System.Drawing.Point(193, 248);
+            this.day_type.Name = "day_type";
+            this.day_type.Size = new System.Drawing.Size(121, 21);
+            this.day_type.TabIndex = 24;
             // 
             // label13
             // 
@@ -383,7 +397,7 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.day_type);
             this.Controls.Add(this.time);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -447,7 +461,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.NumericUpDown time;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox day_type;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
