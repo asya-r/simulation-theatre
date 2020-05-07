@@ -17,3 +17,13 @@ D:\simulation\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsForms
 D:\simulation\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
 D:\simulation\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 D:\simulation\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Admin\Source\Repos\simulation-theatre\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
