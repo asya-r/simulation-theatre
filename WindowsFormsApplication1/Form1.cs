@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
 		public Form1()
 		{
 			InitializeComponent();
-			timer1.Interval = 100;
+			timer1.Interval = 1000;
 			days_left.Text = allDays.ToString();
 		}
 
@@ -38,6 +38,11 @@ namespace WindowsFormsApplication1
 			if (places.Value - Convert.ToInt32(tickets_sold.Text) - ticket >= 0)
 			{
 				tickets_sold.Text = (Convert.ToInt32(tickets_sold.Text) + ticket).ToString();
+				// цена зависит от стоимости аренды, техники, рекламы; зп актеров и обслуживающего персонала. Полная сумма делится на количество мест (делится на половину - если не раскупят) 
+				price = Decimal.ToInt32((rent.Value + technics.Value + ad.Value + staff_salary.Value + actors_salary.Value) / (places.Value / 2));
+				staff_salary.Value += (price * ticket) * 3 / 10;
+				actors_salary.Value += (price * ticket) * 6 / 10;
+				label4.Text = "ЦЕНА БИЛЕТА: " + price.ToString();
 			}
 			else
 			{
